@@ -1,0 +1,9 @@
+[DATABASE]
+CONNECTION_STRING=sqlite:///testip.db
+
+[IPSTACK]
+IPSTACK_KEY=https://ipstack.com/documentation
+
+[ENV]
+STAGE=test
+SECRET_KEY=str

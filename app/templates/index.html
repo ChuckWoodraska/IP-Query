@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block page_content %}
+<br><br>
+<div style="margin: auto; text-align: center;">
+    <h1>IP Query</h1>
+    <table id="IPDataTable" class="table table-bordered table-responsive table-striped"></table>
+</div>
+{% endblock %}
+{% block scripts %}
+{{ super() }}
+<script>
+    IPDataTableControllers.initIPDataTable();
+</script>
+{% endblock %}
