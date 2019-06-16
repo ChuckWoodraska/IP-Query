@@ -16,6 +16,10 @@ You can get a free key here: https://ipstack.com/product
 
 # Running the Program
 
+Setup so Flask knows what app you are talking about:
+
+`export FLASK_APP=run.py`
+
 Create database with all the data:
 
 `flask create_db`
