@@ -40,5 +40,5 @@ Run tests by first changing into the tests directory and then running:
 
 This video can show you more: https://youtu.be/HrEI8OCw_gU
 
-Live version: 
+Live version: https://flewloon.com/ip_query
 
