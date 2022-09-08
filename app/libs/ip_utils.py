@@ -68,8 +68,7 @@ def get_ip(ip_id):
     :return:
     :rtype:
     """
-    ip_data = Ips.read(ip_id)
-    return ip_data
+    return Ips.read(ip_id)
 
 
 def create_ip(ip_address, commit=True):
